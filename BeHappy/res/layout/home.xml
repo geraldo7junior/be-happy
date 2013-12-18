@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/ibtnGame"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/game"
+        android:src="@drawable/games" />
+
+    <ImageButton
+        android:id="@+id/ibtnDesafio"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desafio"
+        android:src="@drawable/desafios" />
+    
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/ibtnEducacional"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/educacional"
+        android:src="@drawable/educacional" />
+
+     </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+<Button
+    android:id="@+id/btnNoticia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/noticia" />
+
+<Button
+    android:id="@+id/btnDiagnostico"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/diagnostico" />
+</LinearLayout>
+
+</LinearLayout>

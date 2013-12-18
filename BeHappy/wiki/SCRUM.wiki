@@ -1,0 +1,21 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Descrição Do Sistema</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Arquivos</a>||||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Equipe</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliografia</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Vídeos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center"> Gerenciamento de Metodologias</p></font></b></H2>
+<hr>
+
+<p align="JUSTIFY">Para o desenvolvimento do sistema Be Happy! Foram escolhidas as seguintes metodologias de desenvolvimento: Modelo Espiral e o Modelo Ágil.
+
+*Para o gerenciamento de ambas as metodologias será usada a ferramenta Scrumy.com.* </P>
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Modelo Espiral</p></font></b></H2>
+<hr>
+<a href="http://scrumy.com/be-happy!-Sprint1">1º Interação</a> <br>
+<a href="https://docs.google.com/document/d/1WEQKJxdkip8-GTxLU4VJNA9u1A_QQoU_6CeosQ2vfJg/edit?usp=sharing">1º Interação - Detalhamento</a> <br>
+<br>
+<hr>
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Modelo Ágil</p></font></b></H2>
+<hr>
+<a href="">Em breve!</a> <br>
+<br>
+<hr>

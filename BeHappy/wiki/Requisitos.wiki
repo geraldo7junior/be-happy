@@ -1,0 +1,73 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Descrição Do Sistema</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Arquivos</a>||||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Equipe</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliografia</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Vídeos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+<h2><b><FONT FACE="TIMES" SIZE="5"><p align="CENTER">Be Happy!</p></font></b></h2>
+<hr>
+
+<h2><b><FONT FACE="TIMES" SIZE="5"><p align="CENTER">Requisitos Funcionais</p></font></b></h2>
+<hr>
+
+“São as declarações de serviços que o sistema deve fornecer, como o sistema deve reagir a entradas específicas e como o sistema deve se comportar em determinadas situações. Em alguns casos, os requisitos funcionais podem também estabelecer explicitamente o que o sistema não deve fazer.”<br>
+(Sommerville, Ian; Engenharia de Software, 2007, p. 80)<br>
+Os requisitos funcionais do sistema têm como meta:<br>
+
+•	*RF001*: Efetuar login; 
+                 Descrição : O sistema deve permitir que o usuário realize o login.<br>
+•	*RF002*: Cadastrar usuário responsável; 
+                 Descrição: O sistema deve permitir que o usuário responsável realize o seu cadastro.<br>
+•	*RF003*: Cadastrar usuário dependente; 
+                 Descrição: O sistema deve permitir que o usuário responsável cadastre um (ou mais) usuário dependente.<br>
+•	*RF004*: Cancelar cadastro;
+                 Descrição: O sistema deve permitir que o usuário (responsável) possa cancelar seu cadastro e o de seus dependentes a qualquer momento. <br>
+•	*RF005*: Alterar cadastro; 
+                 Descrição: O sistema deve permitir que o usuário (responsável) possa alterar seu cadastro e o de seus dependentes a qualquer momento.<br>
+•	*RF006*: Configurar preferência por cores;
+                 Descrição : O sistema deve permitir que o usuário configure o aplicativo de acordo com a sua preferência de cor. <br>
+•	*RF007*: Configurar preferência por fonte; 
+                 Descrição: O usuário poderá selecionar a opção de fonte que mais lhe agradar.<br>
+•	*RF008*: Visualizar cartas do Fale Comigo;
+                 Descrição: O usuário poderá visualizar todas as opções de cartas do módulo Fale Comigo. <br>
+•	*RF009*: Escolher carta do Fale Comigo;
+                 Descrição: O usuário poderá escolher carta do Fale Comigo. <br>
+•	*RF0010*: Visualizar desafio Animal; 
+                  Descrição: Visualizar a tela de opções de figuras do Desafio Animal.<br>
+•	*RF0011*: Responder Desafio Animal;
+                  Descrição: O usuário poderá responder ao Desafio Animal. <br>
+•	*RF0012*: Visualizar Jogo da Memória; 
+                  Descrição: O usuário poderá visualizar a disposição de cartas do Jogo da Memória.<br>
+•	*RF0013*: Escolher cartas do Jogo da Memória;
+                  Descrição: Desenvolvimento da partida do Jogo da Memória.<br>
+•	*RF0014*: Integrar jogos e desafios com as redes sociais;
+                  Descrição: O sistema deve permitir que o usuário possa compartilhar seu status do jogo nas redes sociais.<br>
+•	*RF0015*: Ler notícias no feed;
+                  Descrição: O usuário poderá ler notícias de sites relacionadas ao autismo.<br>
+•	*RF0016*: Preencher formulário de Diagnóstico;
+                  Descrição: sistema deve permitir que o usuário responda o formulário de diagnóstico.<b>
+•	*RF0017*: Enviar formulário de diagnóstico por e-mail;
+                  Descrição: O usuário poderá enviar as resposta do questionário de diagnóstico.<br>
+
+<br>
+*Versão:0.01*
+<br>
+<hr>
+<br>
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="5"><p align="center">Requisitos Não Funcionais</p></font></b></H2>
+<hr>
+
+<p align="justify">“Os requisitos não funcionais, como o nome sugere, são aqueles não diretamente relacionados às funções específicas fornecidas pelo sistema. Eles podem estar relacionados às propriedades emergentes do sistema, como confiabilidade, tempo de resposta e espaço de armazenamento. Como alternativa, eles podem definir restrições, como a capacidade dos dispositivos de E/S (entrada/saída) e as representações de dados usadas nas interfaces do sistema.”</p>
+<p>(Sommerville, Ian; Engenharia de Software, 2007, p. 82)<br>
+<p>Os requisitos não-funcionais do sistema têm como meta:<br>
+
+•	*RNF001*: Durante a fase de beta-testes, a interface deve ser considerada amigável por 70% dos usuários envolvidos nos testes; <br>
+•	*RNF002*: O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com não mais que 5% do tempo com o sistema fora do ar; <br>
+•	*RNF003*: A linguagem de programação usada como padrão deve ser o JAVA; <br>
+•	*RNF004*: A linguagem de interface deve ser o XML; <br>
+•	*RNF005*: A linguagem para conexão remota será o PHP; <br>
+•	*RNF006*: O script do banco será o SQL, relacionado ao SqL Lite, para o banco local. E para o remoto o MySQL Work Branch.; <br>
+•	*RNF007*: O sistema será arquitetado de forma flexível seguindo a arquitetura SOA. <br>
+
+*Versão:0.01*
+<br>
+<hr>
+
+
+<p align="center"><img src='http://static.tumblr.com/l1z3ey5/jqHlte56k/11714641799.png' alt="" title="" align="middle" />

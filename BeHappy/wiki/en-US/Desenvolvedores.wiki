@@ -1,0 +1,15 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Project Description</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Files</a>||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Team</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliography</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Videos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Team</p></font></b></H2>
+<hr>
+
+Carlos César Bezerra Fonseca (cc_bf@hotmail.com);<br>
+Diego Raphael Queiroz(diegocaynita@gmail.com);<br>
+Geraldo Gomes da Cruz Júnior (geraldoj8@gmail.com);<br> 
+Larissa Karollyne de Melo Ferreira (larissakarollyne@gmail.com);<br>
+Mário Gomes de Melo (mauriokk@gmail.com);<br>
+Rafaella Leandra (rafaella-pe@hotmail.com);<br>
+Robson Ugo Souza(ulrichugo@gmail.com);<br>
+<br>
+<hr>
+<p align="center"><img src='http://static.tumblr.com/rifxpsk/piNlgsbvs/summ11.jpg' alt="" title="" align="middle" />

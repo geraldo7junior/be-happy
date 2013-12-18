@@ -1,0 +1,63 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Descrição Do Sistema</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Arquivos</a>||||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Equipe</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliografia</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Vídeos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+
+<H2><b><FONT FACE="TIMES" SIZE="5"><p align="center">Descrição do projeto</p></font></b></H2>
+<HR SIZE=1 WIDTH=100% COLOR="BLACK"> 
+
+<p align="JUSTIFY">O autismo é uma disfunção global do desenvolvimento. É uma alteração que afeta a capacidade de comunicação do indivíduo, de socialização (estabelecer relacionamentos) e de comportamento (responder apropriadamente ao ambiente — segundo as normas que regulam essas respostas).</p>
+
+<p align="JUSTIFY">O autismo é uma doença física vinculada à biologia e à química anormais no cérebro. As causas exatas dessas anomalias continuam desconhecidas, mas essa é uma área de pesquisa muito ativa. Provavelmente, há uma combinação de fatores que leva ao autismo. (Autismo e outros transtornos do espectro autista - Revista Autismo)</p>
+
+<p align="JUSTIFY">O Sistema Be Happy! é uma iniciativa mundial para ajudar as crianças que sofrem dessa disfunção, bem como parentes e professores a detectarem e lidarem com o autismo.</p>
+
+<p align="JUSTIFY">Como e quando o autismo se manifesta? Quais os primeiros sintomas? E por que é tão importante começar o tratamento o mais cedo possível? Essas perguntas que são importantes de serem respondidas para mostrar a importância desse aplicativo para as famílias e professores de uma criança com suspeita ou possuidora do autismo.</p>
+
+<p align="JUSTIFY">O autismo se instala nos três primeiros anos de vida, quando os neurônios que coordenam a comunicação e os relacionamentos sociais deixam de formar as conexões necessárias. Embora o transtorno seja incurável quando demora para ser reconhecido, esses neurônios não são estimulados na hora certa e a criança perde a chance de aprender.</p>
+
+<p align="JUSTIFY">Estudo mostrou que, enquanto nos Estados Unidos o diagnóstico é feito antes dos 3 anos de idade, no Brasil o transtorno só é identificado quando a criança já tem de 5 a 7 anos. Esse atraso agrava as deficiências do autismo e traz mais sofrimento para as famílias. (http://www.medicina.ufmg.br)</p>
+
+<p align="JUSTIFY">Atualmente foi concedido pelo autismoerealidade.org um questionário que ajuda na detecção do autismo pelas famílias. Com o uso do Be Happy! este questionário estaria de forma facilitada para preenchimento e envio direto ao médico que acompanha a criança.</p>
+
+<p align="JUSTIFY">Além de ajudar as famílias na detecção do autismo, o principal foco do Be Happy! é ajudar as crianças autistas a lidarem com o mundo de uma forma melhor, propondo jogos e desafios que as estimulam.</p>
+
+<p align="JUSTIFY">Existem cerca de setenta milhões de autistas no mundo, segundo a ONU, o Be Happy! surge com a proposta de facilitar o processo de tratamento e aprendizagem das crianças autistas.</p>
+
+<p align="JUSTIFY">O tratamento do autismo é focado em três técnicas: Analise do Comportamento Aplicada (ABA), Picture Exchange Communication System (PECS) e o Método TEACCH.</p>
+<p align="JUSTIFY">
+•	O ABA se embasa em: Procedimentos de treino incidental, análises de tarefas, encadeamento, tentativas instrucionais embutidas em atividades e treino de tentativas discretas.<br>
+•	O PECS: Sistema baseado em figuras que refletem as necessidades e/ou o interesse individuais. Este sistema facilita tanto a comunicação quanto a compreensão, quando se estabelece a associação entre a atividade/símbolos.<br>
+•	TEACCH: Combina diferentes estímulos visuais e auditivos com o objetivo de aperfeiçoar a linguagem, melhorar o aprendizado e reduzir comportamentos inapropriados. Áreas, objetos, palavras, recipientes de cores diferentes e a fala do terapeuta são utilizados para instruir as crianças sobre suas atividades diárias de forma a emparelhar o símbolo com o respectivo objeto, local ou atividade no mundo real.
+
+<p align="JUSTIFY">(J Child Psychol Psychiatry)</p>
+
+<p align="JUSTIFY">O Be Happy! com seus jogos e desafios visa a atender a aspectos dessas três formas de tratamentos, fazendo com que o aplicativo seja o mais agradável e útil para a criança.</p>
+
+<p align="JUSTIFY">O desenvolvimento desse sistema também é importante para servir como base para o desenvolvimento de outros softwares que ajudem crianças que sofrem de algum dos cinco transtorno global do desenvolvimento:</p>
+•	Autismo, o mais conhecido;<br>
+•	Síndrome de Rett;<br>
+•	Transtorno desintegrativo da infância (síndrome de Heller);<br>
+•	Síndrome de Asperger;<br>
+•	Transtorno global do desenvolvimento sem outra especificação, que inclui (ou também é conhecido como) autismo atípico.<br>
+
+<p align="JUSTIFY">(National Dissemination Center for Children with Disabilities)</p>
+
+<p align="JUSTIFY">O Be Happy! ainda visa a atender as cinco tendências do mercado de tecnologia das próximas décadas. Ele funciona em plataformas móveis como smart phones e tablets; Visa o uso de mídias sociais tanto como forma de comunicação da família com os médicos, como também para a criança poder publicar progressos nas redes sociais; O uso da computação nas nuvens para armazenamento e envio de informações; Consumerization of IT, sendo um aplicativo pensado e voltado para o consumo; Big Data, com uma importância ao tratamento e acumulo de dados.</p>
+
+<p align="JUSTIFY">Dados importantes para se ratificar a importância social e econômica do aplicativo:</p>
+
+•	1 em cada 50 crianças sofre de autismo, segundo dados divulgados há menos de um mês pelo CDC (Centro de Controle e Prevenção de Doenças) dos EUA.<br>
+•	"Estima-se que 90% dos brasileiros com autismo não tenham sido diagnosticados. Falta informação: nunca foi feita campanha de conscientização no país", diz o psiquiatra Estevão Vadasz, coordenador do Programa de Transtornos do Espectro Autista do Instituto de Psiquiatria do HC de São Paulo.<br>
+•	Brasil tem cerca de 2 milhões de crianças autistas (Notícias terra.com.br);<br>
+•	Brasil pode ter até um milhão de autistas não diagnosticados (vidasaudavel_autismo)<br>
+•	No mundo, segundo a ONU, acredita-se haver mais de 70 milhões de pessoas com autismo, afetando a maneira como esses indivíduos se comunicam e interagem. A incidência em meninos é maior, tendo uma relação de quatro meninos para uma menina com autismo.<br>
+
+<p align="JUSTIFY">Ao analisar esses dados pode-se ratificar o impacto social e econômico do Be Happy!. As linguagens padrões do sistema serão o português e o inglês, com isso fazendo com que o software tenha um alcance mundial. Ainda é importante ressaltar que o Be Happy! será um sistema para ajuda na detecção do autismo, levando ao interesse de outras famílias, mesmo que não possuam autistas na mesma. Pelo autismo se tratar de uma disfunção grave, que leva inclusive ao isolamento da criança, o aplicativo Be Happy! será muito interessante para familiares, amigos, médicos e instituições escolares que lidam com os autistas.</p>
+
+<p align="JUSTIFY">Por fim é importante ressaltar que o Be Happy! ainda servirá como base para outras doenças que englobam o transtorno global do desenvolvimento.</p> 
+
+
+<br>
+<hr>
+
+
+<p align="center"><img src='http://i.imgur.com/Zzemjuf.jpg' alt="" title="" align="middle" />

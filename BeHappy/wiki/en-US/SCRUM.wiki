@@ -1,0 +1,21 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Project Description</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Files</a>||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Team</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliography</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Videos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Management Methodologies</p></font></b></H2>
+<hr>
+
+<p align="JUSTIFY">To develop the system Be Happy! Spiral Model and Agile Model: the following development methodologies were chosen.
+
+*For management of both methodologies will be used to Scrumy.com tool.* </P>
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Spiral Model</p></font></b></H2>
+<hr>
+<a href="http://scrumy.com/be-happy!-Sprint1">Interaction 1st</a> <br>
+<a href="https://drive.google.com/file/d/0B5hIXVRKD54qb194UzJ0OHhOSFFBa19wWTBIOTJablkxblZJ/edit?usp=sharing">Interaction 1st - Detailing</a> <br>
+<br>
+<hr>
+
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="1"><p align="center">Agile Model</p></font></b></H2>
+<hr>
+<a href="">Soon!</a> <br>
+<br>
+<hr>

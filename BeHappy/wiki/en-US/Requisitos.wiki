@@ -1,0 +1,71 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Project Description</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Files</a>||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Team</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliography</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Videos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+<h2><b><FONT FACE="TIMES" SIZE="5"><p align="CENTER">Be Happy!</p></font></b></h2>
+<hr>
+
+<h2><b><FONT FACE="TIMES" SIZE="5"><p align="CENTER">Functional Requirements</p></font></b></h2>
+<hr>
+
+"These are statements of services the system should provide, how the system should react to particular inputs and how the system should behave in particular situations. In some cases, functional requirements may also explicitly state what the system should do. "<br>
+(Sommerville, Ian; Software Engineering, 2007, p. 80)<br>
+The functional requirements of the system aim to:<br>
+• *FR001*: Log in;<br>
+                 Description : The system should allow the user to perform the login <br>
+• *FR002*: Register user responsible;<br>
+                 Description : The system should allow the user responsible conduct your registration <br>
+• *FR003*: Register user dependent;<br>
+                 Description : The system should allow the user responsible register one (or more) user dependent <br>
+• *FR004*: Cancel registration;<br>
+                 Description : The system should allow the user (responsible ) may cancel your registration and your dependents at any time.<br>
+• *FR005*: Change register;<br>
+                 Description : The system should allow the user (responsible ) can change your registration and your dependents at any time <br> 
+• *FR006*: Set preference for colors;<br>
+                 Description : The system should allow the user to configure the application according to your color preference.<br>
+• *FR007*: Setting preferences for source;<br>
+                 Description : The user may choose a font that suits you<br>
+• *FR008*: Display charts Contact Me;<br>
+                 Description : The user can view all options of the letter Contact Me module.<br>
+• *FR009*: Choose the letter Contact Me;<br>
+                 Description : The user can choose letter from Contact Me.<br>
+• *FR0010*: Animal Challenge Show;<br>
+                  Description : View the options screen figures of Animal Challenge<br>
+• *FR0011*: Reply Challenge Animal;<br>
+                  Description : The user can respond to the Animal Challenge<br>
+• *FR0012*: Game Show of Memory;<br>
+                  Description : The user can visualize the layout of the cards Memory Game<br>
+• *FR0013*: Choose the Memory Game cards;<br>
+                  Description : Development of the game Memory Game <br>
+• *FR0014*: Include games and challenges with social networks;<br>
+                  Description : The system should allow the user to share your game status on social networks <br>
+• *FR0015*: Read the news feed;<br>
+                  Description : The user can read the news related to autism sites<br>
+• *FR0016*: Fill form Diagnosis;<br>
+                  Description : System shall allow the user to answer the form diagnostic<br>
+• *FR0017*: Send form by email diagnosis;<br>
+                  Description : The user can send the response diagnostic questionnaire <br>
+
+<br>
+* Version: 0.02 *
+<br>
+<hr>
+<br>
+<H2 TEXT-ALIGN='CENTER'><b><FONT FACE="TIMES" SIZE="5"><p align="center">Non-Functional Requirements</p></font></b></H2>
+<hr>
+
+<p align="justify">Non-functional requirements , as the name suggests , are those not directly related to the specific functions provided by the system . They may be related to the emergent properties of the system , such as reliability , response time and storage space . Alternatively , they can set restrictions , the ability of the I / O (input / output ) and data representations used in system interfaces devices.</p>
+<p>(Sommerville, Ian; Engenharia de Software, 2007, p. 82)<br>
+<p>Non - functional requirements of the system aim to:<br>
+• NFR001 : During the beta- testing , the interface should be considered friendly by 80% of users involved in testing ;<br>
+• NFR002 : The system must be available 24 hours a day, 7 days a week , with no more than 2 % of the time with the system off the air ;<br>
+• NFR003 : The programming language used should be the default JAVA ;<br>
+• NFR004 : The interface language should be XML ;<br>
+• NFR005 : A language for remote connection is PHP ;<br>
+• NFR006 : The script of the database will be SQL , SQLite related to the local bank. And for the remote MySQL Work Branch ;<br>
+• NFR007 : The system will be engineered flexibly following the SOA .<br>
+*Version: 0.01*
+<br>
+<hr>
+
+
+
+<p align="center"><img src='http://static.tumblr.com/l1z3ey5/jqHlte56k/11714641799.png' alt="" title="" align="middle" />

@@ -1,0 +1,58 @@
+||<a href="http://code.google.com/p/be-happy">Home</a>||<a href="https://code.google.com/p/be-happy/wiki/DescricaoDoProjeto">Project Description</a>||<a href="https://code.google.com/p/be-happy/wiki/Docs">Files</a>||<a href="https://code.google.com/p/be-happy/wiki/Desenvolvedores">Team</a>||<a href="https://code.google.com/p/be-happy/wiki/Bibliografia">Bibliography</a>||||<a href="https://code.google.com/p/be-happy/wiki/Videos">Videos</a>||||<a href="https://code.google.com/p/be-happy/wiki/apk">Be Happy!.apk</a>||
+
+
+<H2><b><FONT FACE="TIMES" SIZE="5"><p align="center">Project Description</p></font></b></H2>
+<HR SIZE=1 WIDTH=100% COLOR="BLACK">
+<p align="JUSTIFY">Autism is a disorder of the overall development. It is a change that affects the ability of an individual's communication, socialization ( build relationships ) and behavior ( responding appropriately to the environment - according to the rules that regulate these responses ) .
+
+Autism is linked to abnormal biology and chemistry in the brain physical illness. The exact causes of these abnormalities remain unknown, but this is a very active area of research . There is probably a combination of factors leading to autism. ( Autism and other autism spectrum disorders - Autism Magazine )
+
+The System Be Happy ! is a global initiative to help children who suffer from this disorder, as well as relatives and teachers to detect and cope with autism .
+
+How and when autism manifests? What are the early symptoms? And why is it so important to begin treatment as soon as possible? These are important questions to be answered to show the importance of this application to the families and teachers of children with suspected autism or possessor .
+
+Autism is installed in the first three years of life , when neurons that coordinate the communication and social relationships fail to form the necessary connections . Although the disorder is incurable when it takes to be recognized , these neurons are not stimulated at the right time and the child loses the chance to learn .
+
+Study showed that while the United States the diagnosis is made before 3 years of age, in Brazil the disorder is identified only when the child already has 5-7 years. This delay exacerbates the shortcomings of autism and brings more suffering for families . ( http://www.medicina.ufmg.br )
+
+Currently autismoerealidade.org was granted by a questionnaire that helps detect autism by households . With the use of Be Happy ! this questionnaire would be an easier way to fill and send direct to the doctor accompanying the child .
+
+In addition to helping families in the detection of autism , the main focus of Be Happy ! is helping autistic children cope with the world in a better way by proposing games and challenges that stimulate .
+
+There are about seventy million autistic worldwide, according to the UN, Be Happy ! comes up with the proposal to facilitate the treatment process and learning of autistic children .
+
+The Autism Treatment is focused on three techniques : Applied Behavior Analysis ( ABA ) , Picture Exchange Communication System ( PECS ) and the TEACCH method .
+
+The ABA was grounded in : Proceedings of incidental teaching , task analysis , chaining , instructional trials embedded in activities and discrete trial training .
+The PECS : System based on figures that reflect the needs and / or the individual interest. This system facilitates both communication and understanding , when establishing the association between the activity / symbols .
+TEACCH : Combine different visual and auditory stimuli with the objective of improving the language , improve learning and reduce inappropriate behaviors . Areas , objects , words , containers of different colors and speech therapist are used to educate children about their daily activities in order to match the symbol with its object , location or activity in the real world .
+
+( J Child Psychol Psychiatry )
+
+The Be Happy ! with their games and aims to meet challenges to aspects of these forms of treatments , causing the application to be pleasant and helpful to the child .
+
+The development of this system is also important to serve as a basis for developing other software to help children who suffer from some of the five pervasive developmental disorders :
+
+Autism , the best known ;
+Rett Syndrome ;
+Childhood disintegrative disorder syndrome ( Heller ) ;
+Asperger Syndrome ;
+Global developmental disorder not otherwise specified , which includes (or is also known as ) atypical autism .
+( National Dissemination Center for Children with Disabilities )
+
+The Be Happy ! still aims to meet the five trends in the technology market over the coming decades . It works on mobile platforms such as smart phones and tablets ; Visa using social media both as family communication with physicians , but also for the child to publish progress on social networks , the use of cloud computing for storage and shipping information ; consumerization of IT , one thought and facing the consumer application ; Big Data with an emphasis on treatment and accumulation of data.
+
+Important data to ratify the social and economic importance of the application:
+
+1 in 50 children has autism , according to data released less than a month by the CDC ( Center for Disease Control and Prevention ) U.S. .
+" It is estimated that 90 % of Brazilians with autism have not been diagnosed Lack of information : . Ever awareness campaign was made in the country," says psychiatrist Stephen Vadasz , coordinator of Autistic Spectrum Disorders , Institute of Psychiatry , HC of Sao Paulo .
+Brazil has about 2 million children with autism ( News terra.com.br ) ;
+Brazil can have up to a million autistic undiagnosed ( vidasaudavel_autismo )
+In the world according to the UN , believed to be more than 70 million people with autism , affecting how these individuals communicate and interact . The incidence is higher in males , with a ratio of four boys for a girl with autism .
+By analyzing these data can ratify the social and economic impact of Be Happy ! . The system defaults languages are Portuguese and English , thus making the software has a worldwide reach . Is also important to note that the Be Happy ! will be a system to aid in the detection of autism , leading to interest from other families , even if they lack the same autistic . By autism it is a serious disorder that leads to the isolation of the child including , Be Happy! app will be very interesting for family , friends , medical and educational institutions dealing with autism .
+
+Finally it is worth noting that the Be Happy ! will also serve as the basis for other diseases that involve the pervasive developmental disorders .</p>
+<br>
+<hr>
+
+<p align="center"><img src='http://i.imgur.com/Zzemjuf.jpg' alt="" title="" align="middle" />

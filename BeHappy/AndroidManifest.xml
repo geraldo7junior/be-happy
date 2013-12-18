@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.behappy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.behappy.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".Fonte"
+               android:label="@string/fonte">         
+            </activity>
+            <activity  android:name=".Home"
+               android:label="@string/home">         
+            </activity>
+            <activity  android:name=".Educacional"
+               android:label="@string/educacional">         
+            </activity>
+             <activity  android:name=".FaleComigo"
+               android:label="@string/fale">         
+            </activity>
+            <activity  android:name=".Fome"
+               android:label="@string/fome">         
+            </activity>
+            <activity  android:name=".Sede"
+               android:label="@string/sede">         
+            </activity>
+            <activity  android:name=".Sono"
+               android:label="@string/sono">         
+            </activity>
+            <activity  android:name=".Banho"
+               android:label="@string/banho">         
+            </activity>
+            <activity  android:name=".Banheiro"
+               android:label="@string/banheiro">         
+            </activity>
+            
+            <activity  android:name=".Cores"
+               android:label="@string/cores">         
+            </activity>
+            <activity  android:name=".QuebraCabeca"
+               android:label="@string/quebra">         
+            </activity>
+            <activity  android:name=".Jogos"
+               android:label="@string/jogos">         
+            </activity>
+            
+             <activity  android:name=".UnidadesSaude"
+               android:label="@string/unidades">         
+            </activity>
+            <activity  android:name=".Sinais"
+               android:label="@string/sinais">         
+            </activity>
+             <activity  android:name=".Diagnostico"
+               android:label="@string/diagnostico">         
+            </activity>
+            <activity  android:name=".Dependente"
+               android:label="@string/dependente">         
+            </activity> 
+            <activity  android:name=".CadastroDependente"
+               android:label="@string/cadastrodep">         
+            </activity> 
+            
+                 <activity
+            android:name="com.example.behappy.Report"
+            android:label="@string/diagnostico" >
+        </activity>
+    </application>
+
+</manifest>
