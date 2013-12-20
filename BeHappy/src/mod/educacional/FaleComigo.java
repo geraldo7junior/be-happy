@@ -1,6 +1,11 @@
-package com.example.behappy;
+package mod.educacional;
 
 
+
+import com.example.behappy.R;
+import com.example.behappy.R.id;
+import com.example.behappy.R.layout;
+import com.example.behappy.R.raw;
 
 import android.app.Activity;
 import android.content.Intent;

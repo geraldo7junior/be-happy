@@ -1,62 +1,84 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-     android:background="@drawable/back"
     tools:context=".MainActivity" >
 
-    <ImageButton
-        android:id="@+id/ibtnBanheiro"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ibtnSono"
-        android:layout_below="@+id/ibtnSono"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/sede"
-        android:src="@drawable/banheiro" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
 
-    <ImageButton
-        android:id="@+id/ibtnBanho"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ibtnSede"
-        android:layout_alignTop="@+id/ibtnSono"
-        android:contentDescription="@string/sede"
-        android:src="@drawable/banho" />
+        <ImageButton
+            android:id="@+id/ibtnFome"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/fome"
+            android:src="@drawable/fome"
+            style="?android:attr/buttonBarButtonStyle" />
 
-    <ImageButton
-        android:id="@+id/ibtnSono"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ibtnFome"
-        android:layout_below="@+id/ibtnFome"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/sede"
-        android:src="@drawable/sono" />
+        <ImageButton
+            android:id="@+id/ibtnSede"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/sede"
+            android:src="@drawable/sede"
+            style="?android:attr/buttonBarButtonStyle" />
 
-    <ImageButton
-        android:id="@+id/ibtnSede"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-     android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/ibtnFome"
-        android:layout_marginRight="34dp"
-        android:contentDescription="@string/sede"
-        android:src="@drawable/sede" />
+    </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/ibtnFome"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="15dp"
-        android:contentDescription="@string/fome"
-        android:src="@drawable/fome" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
 
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/ibtnSono"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/sede"
+            android:src="@drawable/sono"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/ibtnBanho"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/sede"
+            android:src="@drawable/banho"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtnBanheiro"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/sede"
+            android:src="@drawable/banheiro"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

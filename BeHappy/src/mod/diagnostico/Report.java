@@ -1,4 +1,8 @@
-package com.example.behappy;
+package mod.diagnostico;
+
+import com.example.behappy.R;
+import com.example.behappy.R.id;
+import com.example.behappy.R.layout;
 
 import android.app.Activity;
 import android.content.Intent;

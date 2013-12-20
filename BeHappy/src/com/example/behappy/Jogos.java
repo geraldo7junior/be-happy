@@ -1,5 +1,6 @@
 package com.example.behappy;
 
+import mod.jogos.QuebraCabeca;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;

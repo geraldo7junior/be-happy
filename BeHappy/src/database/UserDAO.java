@@ -1,4 +1,4 @@
-package com.example.behappy;
+package database;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.behappy;
+package database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

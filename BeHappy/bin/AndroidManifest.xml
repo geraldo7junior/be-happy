@@ -33,39 +33,39 @@
             <activity  android:name=".Educacional"
                android:label="@string/educacional">         
             </activity>
-             <activity  android:name=".FaleComigo"
+             <activity  android:name="mod.educacional.FaleComigo"
                android:label="@string/fale">         
             </activity>
-            <activity  android:name=".Fome"
+            <activity android:name="mod.educacional.Fome"
                android:label="@string/fome">         
             </activity>
-            <activity  android:name=".Sede"
+            <activity  android:name="mod.educacional.Sede"
                android:label="@string/sede">         
             </activity>
-            <activity  android:name=".Sono"
+            <activity android:name="mod.educacional.Sono"
                android:label="@string/sono">         
             </activity>
-            <activity  android:name=".Banho"
-               android:label="@string/banho">         
+            <activity android:name="mod.educacional.Banho"
+               android:label="@string/banho">    
             </activity>
-            <activity  android:name=".Banheiro"
+            <activity  android:name="mod.educacional.Banheiro"
                android:label="@string/banheiro">         
             </activity>
             
             <activity  android:name=".Cores"
                android:label="@string/cores">         
             </activity>
-            <activity  android:name=".QuebraCabeca"
+            <activity  android:name="mod.jogos.QuebraCabeca"
                android:label="@string/quebra">         
             </activity>
             <activity  android:name=".Jogos"
                android:label="@string/jogos">         
             </activity>
             
-             <activity  android:name=".UnidadesSaude"
+             <activity  android:name="mod.diagnostico.UnidadesSaude"
                android:label="@string/unidades">         
             </activity>
-            <activity  android:name=".Sinais"
+            <activity  android:name="mod.diagnostico.Sinais"
                android:label="@string/sinais">         
             </activity>
              <activity  android:name=".Diagnostico"
@@ -79,7 +79,7 @@
             </activity> 
             
                  <activity
-            android:name="com.example.behappy.Report"
+            android:name="mod.diagnostico.Report"
             android:label="@string/diagnostico" >
         </activity>
     </application>

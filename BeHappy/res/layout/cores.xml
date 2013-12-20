@@ -1,71 +1,82 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-     android:background="@drawable/back"
     tools:context=".MainActivity" >
-
-    <ImageButton
-        android:id="@+id/ibtnAmarelo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="140dp"
-        android:src="@drawable/amarelo" 
-        android:contentDescription="@string/amarelo"/>
-
-    <ImageButton
-        android:id="@+id/ibtnAzul"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/ibtnAmarelo"
-        android:layout_marginRight="34dp"
-        android:src="@drawable/azul" 
-        android:contentDescription="@string/azul"/>
-
-    <ImageButton
-        android:id="@+id/ibtnVerde"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ibtnAmarelo"
-        android:layout_below="@+id/ibtnAmarelo"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/verde"
-        android:contentDescription="@string/verde" />
-
-    <ImageButton
-        android:id="@+id/ibtnVermelho"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ibtnAzul"
-        android:layout_alignTop="@+id/ibtnVerde"
-        android:src="@drawable/vermelho"
-        android:contentDescription="@string/vermelho" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/logo_topo" 
-        android:contentDescription="@string/behappy"/>
+        android:contentDescription="@string/behappy"
+        android:src="@drawable/logo_topo" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginLeft="25dp"
+        android:layout_gravity="center"
         android:text="@string/escolha"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtnAmarelo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/amarelo"
+            android:src="@drawable/amarelo"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/ibtnAzul"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/azul"
+            android:src="@drawable/azul"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtnVerde"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/verde"
+            android:src="@drawable/verde"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/ibtnVermelho"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/vermelho"
+            android:src="@drawable/vermelho"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

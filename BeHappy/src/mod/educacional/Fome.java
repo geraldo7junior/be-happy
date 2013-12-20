@@ -1,13 +1,17 @@
-package com.example.behappy;
+package mod.educacional;
+
+import com.example.behappy.R;
+import com.example.behappy.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Banho extends Activity {
+public class Fome extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
 	super.onCreate(savedInstanceState);
-	setContentView(R.layout.banho);
+	setContentView(R.layout.fome);
 	}
+
 }

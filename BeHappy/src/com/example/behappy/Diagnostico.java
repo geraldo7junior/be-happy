@@ -1,5 +1,8 @@
 package com.example.behappy;
 
+import mod.diagnostico.Report;
+import mod.diagnostico.Sinais;
+import mod.diagnostico.UnidadesSaude;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
