@@ -586,18 +586,13 @@
 	                android:text="@string/n" />
 		            
             </RadioGroup>
-            
-            
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/report_name" />
                      
             <EditText
-            android:id="@+id/fname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" >
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nome" >
 
             	<requestFocus />
         	</EditText>
@@ -624,18 +619,12 @@
        android:layout_weight="40"
        android:orientation="vertical" >
 
-       
- 
         <Button
            android:id="@+id/bEnviarEmail"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="@string/send" />
 
-        
-
     </LinearLayout>
- 
-    
- 
+
 </LinearLayout>

@@ -24,7 +24,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/fome"
-            android:src="@drawable/fome"
+            android:src="@drawable/icon_estoucomfome"
             style="?android:attr/buttonBarButtonStyle" />
 
         <ImageButton
@@ -33,7 +33,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/sede"
-            android:src="@drawable/sede"
+            android:src="@drawable/icon_estoucomsede"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
@@ -50,7 +50,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/sede"
-            android:src="@drawable/sono"
+            android:src="@drawable/icon_estoucomsono"
             style="?android:attr/buttonBarButtonStyle" />
 
         <ImageButton
@@ -59,7 +59,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/sede"
-            android:src="@drawable/banho"
+            android:src="@drawable/icon_querotomarbanho"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
@@ -76,7 +76,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/sede"
-            android:src="@drawable/banheiro"
+            android:src="@drawable/icon_queroiraobanheiro"
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>

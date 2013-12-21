@@ -11,7 +11,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:contentDescription="@string/fale"
-        android:src="@drawable/fale_comigo"
+        android:src="@drawable/icon_fale_comigo"
         style="?android:attr/buttonBarButtonStyle" />
 
 </LinearLayout>
