@@ -43,7 +43,8 @@ The functional requirements of the system aim to:<br>
                   Description : System shall allow the user to answer the form diagnostic<br>
 • *FR0017*: Send form by email diagnosis;<br>
                   Description : The user can send the response diagnostic questionnaire <br>
-
+• *FR0018*: Adapt modules user experience;<br>
+                  Description : The application modules adapted to the logged in user experience <br>
 <br>
 * Version: 0.02 *
 <br>
