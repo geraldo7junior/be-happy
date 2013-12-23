@@ -46,7 +46,7 @@ The functional requirements of the system aim to:<br>
 • *FR0018*: Adapt modules user experience;<br>
                   Description : The application modules adapted to the logged in user experience <br>
 <br>
-* Version: 0.02 *
+* Version: 0.03 *
 <br>
 <hr>
 <br>
