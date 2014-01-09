@@ -5,10 +5,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 
 public class Formulario extends Activity{
@@ -86,6 +88,17 @@ public class Formulario extends Activity{
 				// TO DO - Construir msg
 				
 				// enviar para ciente de email
+				
+				//testar em dispositivo que tenha cliente de email cadastrado
+				Intent email = new Intent(Intent.ACTION_SEND);
+				email.putExtra(Intent.EXTRA_EMAIL, new String[]{"mauriokk@gmail.com"});//para	  
+				email.putExtra(Intent.EXTRA_SUBJECT, "subject");
+				email.putExtra(Intent.EXTRA_TEXT, "message");
+				email.setType("message/rfc822");
+				startActivity(Intent.createChooser(email, "Escolha um email: "));//de
+				//
+				
+				/*
 				String name = editTextToString(fname);
 				String email = editTextToString(femail);
 				Intent intent = new Intent(Intent.ACTION_SENDTO);
@@ -94,7 +107,8 @@ public class Formulario extends Activity{
 				intent.putExtra(Intent.EXTRA_TEXT, "");
 				intent.setData(Uri.parse("mailto:"+email));
 				intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-				startActivity(intent);				
+				startActivity(intent);
+				*/				
 			}
 		});
 	}

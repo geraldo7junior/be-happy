@@ -77,9 +77,18 @@
             <activity  android:name=".CadastroDependente"
                android:label="@string/cadastrodep">         
             </activity> 
+             <activity  android:name="mod.jogos.Cartas"
+               android:label="@string/cartas">         
+            </activity> 
+             <activity  android:name="mod.jogos.JogoMemoria"
+               android:label="@string/jogomemoria">         
+            </activity> 
+            <activity  android:name=".CadastroResponsavel"
+               android:label="@string/cadastroresponsavel">         
+            </activity> 
             
                  <activity
-            android:name="mod.diagnostico.Report"
+            android:name="mod.diagnostico.Formulario"
             android:label="@string/diagnostico" >
         </activity>
     </application>
