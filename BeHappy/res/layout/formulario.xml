@@ -12,7 +12,7 @@
  
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -30,16 +30,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy1"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn1"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -55,16 +56,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy2"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn2"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -80,16 +82,17 @@
                 android:layout_height="wrap_content" >
 
                 <RadioButton
-                    android:id="@+id/rbqy"
+                    android:id="@+id/rbqy3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2.08"
                     android:text="@string/y" />
 
                 <RadioButton
-                    android:id="@+id/rbqn"
+                    android:id="@+id/rbqn3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:checked="true"
                     android:text="@string/n" />
             </RadioGroup>
             
@@ -104,16 +107,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy4"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn4"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -129,16 +133,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy5"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn5"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -154,16 +159,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy6"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn6"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -178,16 +184,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy7"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn7"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -203,16 +210,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy8"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn8"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -228,16 +236,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy9"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn9"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -253,16 +262,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy10"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn10"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -278,16 +288,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy11"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn11"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -303,16 +314,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy12"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn12"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -328,16 +340,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy13"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn13"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -353,16 +366,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy14"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn14"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -378,16 +392,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy15"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn15"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -403,16 +418,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy16"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn16"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -428,16 +444,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy17"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn17"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -453,16 +470,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy18"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn18"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -478,16 +496,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy19"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn19"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -503,16 +522,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy20"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn20"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -528,16 +548,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy21"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn21"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -553,16 +574,17 @@
 				android:layout_height="wrap_content" >
 				
 	           <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy22"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn22"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -578,16 +600,17 @@
 				android:layout_height="wrap_content" >
 				
 	            <RadioButton
-	                android:id="@+id/rbqy"
+	                android:id="@+id/rbqy23"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="2.08"
 	                android:text="@string/y" />
 	
 	            <RadioButton
-	                android:id="@+id/rbqn"
+	                android:id="@+id/rbqn23"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
+	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>

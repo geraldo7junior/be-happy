@@ -6,12 +6,6 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.example.behappy.R;
-import com.example.behappy.R.array;
-import com.example.behappy.R.drawable;
-import com.example.behappy.R.id;
-import com.example.behappy.R.layout;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
@@ -31,6 +25,8 @@ import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+
+import com.example.behappy.R;
 
 public class JogoMemoria extends Activity {
     private static int ROW_COUNT = -1;

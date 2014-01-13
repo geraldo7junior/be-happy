@@ -1,9 +1,5 @@
 package mod.diagnostico;
 
-import com.example.behappy.R;
-import com.example.behappy.R.id;
-import com.example.behappy.R.layout;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-import android.widget.Toast;
+
+import com.example.behappy.R;
 
 public class Report extends Activity{
 
@@ -104,6 +101,7 @@ public class Report extends Activity{
 	
 
 	private void initializeVars() {
+		/*
 		// TODO Auto-generated method stub
 		final RadioGroup q1 = (RadioGroup)findViewById(R.id.rgq1);
 		final RadioGroup q2= (RadioGroup)findViewById(R.id.rgq2);
@@ -130,10 +128,12 @@ public class Report extends Activity{
 		final RadioGroup q23= (RadioGroup)findViewById(R.id.rgq23);
 		final EditText fname= (EditText)findViewById(R.id.fname);
 		final EditText femail= (EditText)findViewById(R.id.femail);
+		*/
 		
 		enviarEmail = (Button) findViewById(R.id.bEnviarEmail);
 	}
 	
+	/*
 	private void  checkAnswer(RadioGroup group) {  
 		int resposta = group.getCheckedRadioButtonId();
 		// TODO Auto-generated method stub
@@ -142,12 +142,14 @@ public class Report extends Activity{
 		else if(resposta==R.id.rbqn) //add saida para N
 			;
 		convertAnswerToString();
-		}
+	}
+	*/
 	
+	/*
 	private void  convertAnswerToString() {  
 		// To Do
 		}
-	
+	*/
 	private String  editTextToString(EditText field) {  
 		String string = field.getText().toString();
 		return string;
