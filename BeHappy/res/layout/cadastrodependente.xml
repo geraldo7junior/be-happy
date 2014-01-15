@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal|center"
-        android:text="Cadastro de Dependente"
+        android:text="@string/cadastrodep"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -31,7 +31,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Nome" >
+        android:hint="@string/report_name" >
 
         <requestFocus />
     </EditText>
@@ -43,6 +43,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Cadastrar" />
+        android:text="@string/cadastrar" />
 
 </LinearLayout>

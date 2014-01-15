@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
    
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    
     <!-- Home -->
 	<string name="app_name">Be Happy!</string>
 	<string name="action_settings">Settings</string>
@@ -10,13 +15,17 @@
 	<string name="noticia">Notícias</string>
 	<string name="diagnostico">Diagnóstico</string>
 	<string name="home">Home</string>
-    <string name="cadastroresponsavel">Cadastro Responsável</string>
+    <string name="cadastroresponsavel">Cadastro de Responsável</string>
+    <string name="email">E-mail</string>
+    <string name="confsenha">Confirme a senha</string>
     
     <string name="cartas">Cartas</string>
     <string name="jogomemoria">Jogo da memória</string>
     
     <!-- Jogos -->
 	<string name="quebra">Quebra Cabeça</string>
+	<string name="memoria">Jogo da Memória</string>
+	
 	
 	<!-- Educacional -->
 	<string name="educacional">Educacional</string>
@@ -38,11 +47,18 @@
 	<string name="cores">Cores</string>
 	<string name="selecCor">Selecione a cor</string>
     
+    
     <!-- Cadastro de dependente -->
-	<string name="cadastrodep">Cadastro de dependente</string>
-	<string name="dependente">Dependente</string>
+    <string name="selecionarusuario">Selecione o usuário padrão</string>
+	    <!-- Cadastro de dependente -->
+		<string name="cadastrodep">Cadastro de dependente</string>
+		<string name="dependente">Dependente</string>
+		<string name="cadastrar">Cadastrar</string>
  
 <!-- Diagnostico -->
+<string name="formulario">Formulário</string>
+<string name="sinaisalerta">Sinais de Alerta</string>
+<string name="unidadessaude">Unidades de Saúde</string>
     <!-- Formulario -->
 	<string name="form_info1">Preencha as questões abaixo sobre como seu filho geralmente se comporta, tentando responder a todas as questões. Caso o comportamento na questão seja raro (Ex.: Você só observou uma ou duas vezes), por favor responda como se seu filho não fizesse tal comportamento.</string>
 	<string name="q1">1. Seu filho gosta de se balançar, de pular no seu joelho, etc?</string>

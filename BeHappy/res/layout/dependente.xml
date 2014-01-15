@@ -9,7 +9,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selecione o usuário padrão"
+        android:text="@string/selecionarusuario"
         android:textAppearance="?android:attr/textAppearanceMedium" />
     
      <ListView
@@ -23,6 +23,6 @@
         android:id="@+id/btnCadastroDep"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Cadastrar" />
+        android:text="@string/cadastrar" />
    
 </LinearLayout>

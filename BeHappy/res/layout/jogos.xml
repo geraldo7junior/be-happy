@@ -10,8 +10,8 @@
         android:id="@+id/ibtnQuebraCabeca"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:contentDescription="@string/quebra"
-        android:src="@drawable/quebracbeca"
+        android:contentDescription="@string/memoria"
+        android:src="@drawable/icon_memoria"
         style="?android:attr/buttonBarButtonStyle" />
 
 </LinearLayout>

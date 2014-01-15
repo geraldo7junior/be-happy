@@ -23,7 +23,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Login"
+        android:hint="@string/login"
         android:inputType="textEmailAddress" >
 
         <requestFocus />
@@ -38,7 +38,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="textPassword" />
 
     <Button
@@ -48,7 +48,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:text="Entrar" />
+        android:text="@string/entrar" />
 
     <Button
         android:id="@+id/btnCadastro"
@@ -56,6 +56,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Cadastrar" />
+        android:text="@string/cadastrar" />
 
 </LinearLayout>

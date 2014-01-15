@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal|center"
-        android:text="Cadastro de Responsável"
+        android:text="@string/cadastroresponsavel"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -31,7 +31,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Nome" >
+        android:hint="@string/report_name" >
 
         <requestFocus />
     </EditText>
@@ -46,7 +46,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="E-mail" />
+        android:hint="@string/email" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -57,7 +57,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="textPassword" />
       
       <EditText
@@ -68,7 +68,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
-        android:hint="Confirme Senha"
+        android:hint="@string/confsenha"
         android:inputType="textPassword" />
 
     <Button
@@ -78,6 +78,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Cadastrar" />
+        android:text="@string/cadastrar" />
 
 </LinearLayout>
