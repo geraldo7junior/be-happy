@@ -175,7 +175,7 @@ public class Formulario extends Activity{
 				for (int i=0; i < listaResp.size(); i++){
 					if (listaResp.get(i) == listaAut.get(i)){ //total
 						contTotal += 1;
-						if ((i==1)|(i==6)|(i==8)|(i==12)|(i==13)|(i==14)){ //chave
+						if ((i==1)||(i==6)||(i==8)||(i==12)||(i==13)||(i==14)){ //chave
 							contChave +=1;
 						}
 					}
@@ -240,7 +240,7 @@ public class Formulario extends Activity{
 		}
 	
 	private void  convertAnswerToString() {  
-		if ((contTotal > 2) | (contChave > 1)){
+		if ((contTotal > 2) || (contChave > 1)){
 			//autista
 			Toast.makeText(Formulario.this, "A criança tem tendência autista. Procure um especialista!", Toast.LENGTH_LONG).show();
 		}

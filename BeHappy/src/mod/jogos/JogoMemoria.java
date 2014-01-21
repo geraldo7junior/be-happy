@@ -25,6 +25,7 @@ import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.behappy.R;
 
@@ -39,13 +40,25 @@ public class JogoMemoria extends Activity {
 	private Cartas segundaCarta;
 	private ButtonListener buttonListener;
 	private static Object lock = new Object();
-	int vezes;
+	int vezes = 0;
 	private TableLayout mainTable;
 	private AtualizaCartasHandler handler;
+	
+	int nivel = 1;
+	int contAcertos = 0;
+	int x = 0,y = 0;
+	ArrayList<String> listaTamMatriz = new ArrayList<String>();
+	ComplexidadeNivel ComplexidadeNivel = new ComplexidadeNivel();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        listaTamMatriz.add("4x4");
+        listaTamMatriz.add("4x5");
+        listaTamMatriz.add("4x6");
+        listaTamMatriz.add("5x6");
+        listaTamMatriz.add("6x6");
             
         handler = new AtualizaCartasHandler();
         carregaImagens();
@@ -71,29 +84,47 @@ public class JogoMemoria extends Activity {
 	    			  View arg1, int pos, long arg3){
 	    		  
 	    		  ((Spinner) findViewById(R.id.Spinner01)).setSelection(0);
-	    		  
-	  			int x,y;
 	  			
 	  			switch (pos) {
 				case 1:
 					x=4;y=4;
+					novoJogo(x,y);
 					break;
 				case 2:
-					x=4;y=5;
+					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+					if (nivel >= 2){
+						x=4;y=5;
+						novoJogo(x,y);
+					}
+					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
 					break;
 				case 3:
-					x=4;y=6;
+					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+					if (nivel >= 3){
+						x=4;y=6;
+						novoJogo(x,y);
+					}
+					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
 					break;
 				case 4:
-					x=5;y=6;
+					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+					if (nivel >= 4){
+						x=5;y=6;
+						novoJogo(x,y);
+					}
+					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
 					break;
-				case 5:
-					x=6;y=6;
+				case 5:					
+					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+					if (nivel >= 5){
+						x=6;y=6;
+						novoJogo(x,y);
+					}
+					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
 					break;
 				default:
 					return;
-				}
-	  			novoJogo(x,y);	
+				}	
 	  		}
 
 			@Override
@@ -106,6 +137,7 @@ public class JogoMemoria extends Activity {
     }
     
     private void novoJogo(int c, int r) {
+    	contAcertos = 0;
     	ROW_COUNT = r;
     	COL_COUNT = c;
     	cartas = new int [COL_COUNT] [ROW_COUNT];
@@ -271,10 +303,13 @@ public class JogoMemoria extends Activity {
     			checaCartas();
     		}
     	}
+    	
+    	
     	 public void checaCartas(){
     	    	if(cartas[segundaCarta.x][segundaCarta.y] == cartas[primeiraCarta.x][primeiraCarta.y]){
     	    		primeiraCarta.button.setVisibility(View.INVISIBLE);
     	    		segundaCarta.button.setVisibility(View.INVISIBLE);
+    	    		contAcertos += 2;
     			}
     			else {
     				segundaCarta.button.setBackgroundDrawable(backImage);
@@ -284,5 +319,5 @@ public class JogoMemoria extends Activity {
     	    	primeiraCarta=null;
     			segundaCarta=null;
     	    }
-    }  
+    }
 }
