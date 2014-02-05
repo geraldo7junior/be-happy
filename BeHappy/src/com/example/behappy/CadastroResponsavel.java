@@ -16,11 +16,10 @@ public class CadastroResponsavel extends Activity  {
 	
 	UserDAO userDAO;
 	@Override
-	public void onCreate(Bundle savedInstanceState)
-	{
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.cadastroresponsavel);
-	this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.cadastroresponsavel);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 		userDAO=new UserDAO(this);
 		userDAO=userDAO.open();
@@ -32,25 +31,24 @@ public class CadastroResponsavel extends Activity  {
 		btnCreateAccount=(Button)findViewById(R.id.buttonCreateAccount);
 		btnCreateAccount.setOnClickListener(new View.OnClickListener() {
 		
-		public void onClick(View v) {
+			public void onClick(View v) {
 			
-			String userName=editTextUserName.getText().toString();
-			String password=editTextPassword.getText().toString();
-			String confirmPassword=editTextConfirmPassword.getText().toString();
-			
-			if(userName.equals("")||password.equals("")||confirmPassword.equals(""))
-			{
-					Toast.makeText(getApplicationContext(), "Campo vazio!", Toast.LENGTH_LONG).show();
-					return;
+				String userName=editTextUserName.getText().toString();
+				String password=editTextPassword.getText().toString();
+				String confirmPassword=editTextConfirmPassword.getText().toString();
+				
+				if(userName.equals("")||password.equals("")||confirmPassword.equals(""))
+				{
+						Toast.makeText(getApplicationContext(), "Campo vazio!", Toast.LENGTH_LONG).show();
+						return;
 			}
 		
-			if(!password.equals(confirmPassword))
-			{
+			if(!password.equals(confirmPassword)){
 				Toast.makeText(getApplicationContext(), "Senhas diferentes!", Toast.LENGTH_LONG).show();
 				return;
 			}
-			else
-			{
+			else{
+				
 			    userDAO.insertEntry(userName, password);
 			    Toast.makeText(getApplicationContext(), "Conta criada com Sucesso!", Toast.LENGTH_LONG).show();
 			    chamaLogin();
@@ -64,7 +62,6 @@ public class CadastroResponsavel extends Activity  {
 		entra.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(entra);
 	}
-	
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();

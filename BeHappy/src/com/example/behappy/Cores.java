@@ -13,7 +13,7 @@ public class Cores extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.cores);
 		
-this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		
 		ImageButton amarelo = (ImageButton) findViewById(R.id.ibtnAmarelo);		
 		amarelo.setOnClickListener(new View.OnClickListener() {

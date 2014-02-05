@@ -14,6 +14,4 @@
         android:text="Quebra Cabeça"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    
-
 </LinearLayout>

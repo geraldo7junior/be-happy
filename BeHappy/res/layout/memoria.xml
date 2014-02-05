@@ -7,8 +7,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android" 
     android:id="@+id/TableLayout03">
 
-
-
 <TableRow 
     android:id="@+id/TableRow04" 
     android:layout_width="wrap_content" 
@@ -24,19 +22,19 @@
     </Spinner>
 </TableRow>
 
-<TableRow 
-    android:id="@+id/TableRow05"
-     android:layout_width="wrap_content" 
-     android:layout_height="wrap_content">
+	<TableRow 
+    	android:id="@+id/TableRow05"
+     	android:layout_width="wrap_content" 
+     	android:layout_height="wrap_content">
     
-    <TextView 
-        android:layout_width="wrap_content"
-         android:layout_height="wrap_content" 
-         android:id="@+id/tv1" 
-         android:paddingLeft="10sp" 
-         android:layout_weight="1">
+    	<TextView 
+        	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content" 
+         	android:id="@+id/tv1" 
+         	android:paddingLeft="10sp" 
+         	android:layout_weight="1">
         
-    </TextView>
+    	</TextView>
     
     </TableRow>
     <TableRow 
@@ -46,25 +44,25 @@
         android:layout_gravity="center" 
         android:gravity="center">
     
-    <TextView 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"
-         android:gravity="center" 
-         android:text="@string/memoria" 
-         android:visibility="visible" 
-         android:textSize="30sp" 
-         android:paddingTop="20sp" 
-         android:textColor="#000000" 
-         android:id="@+id/mainTitle">
-        
-    </TextView>
+	    <TextView 
+	    	android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:gravity="center" 
+	        android:text="@string/memoria" 
+	        android:visibility="visible" 
+	        android:textSize="30sp" 
+	        android:paddingTop="20sp" 
+	        android:textColor="#000000" 
+	        android:id="@+id/mainTitle">
+	        
+	    </TextView>
     
     </TableRow>
     <TableRow 
-        android:id="@+id/TableRow02"
-         android:layout_width="wrap_content"
-          android:layout_height="wrap_content" 
-          android:gravity="center">
+    	android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
         
     </TableRow>
     <TableRow 
@@ -73,23 +71,22 @@
         android:layout_height="wrap_content" 
         android:gravity="center">
 
-    <LinearLayout
-         android:id="@+id/LinearLayout01" 
-         android:layout_width="wrap_content"
-          android:layout_height="wrap_content" 
-          android:layout_gravity="center" 
-          android:gravity="center">
+	    <LinearLayout
+	         android:id="@+id/LinearLayout01" 
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content" 
+	         android:layout_gravity="center" 
+	         android:gravity="center">
+	
+	        <ImageView
+	            android:id="@+id/ImageView01"
+	            android:layout_width="200dp"
+	            android:layout_height="200dp"
+	            android:background="@drawable/icon_memoria"
+	            android:contentDescription="@string/memoria" />
 
-        <ImageView
-            android:id="@+id/ImageView01"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="@drawable/icon_memoria"
-            android:contentDescription="@string/memoria" />
+		</LinearLayout>
 
-</LinearLayout>
-
-</TableRow>
-
+	</TableRow>
 
 </TableLayout>

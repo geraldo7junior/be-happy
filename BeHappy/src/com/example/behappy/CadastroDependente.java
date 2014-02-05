@@ -9,20 +9,18 @@ import android.widget.Button;
 
 public class CadastroDependente extends Activity {
 	@Override
-	public void onCreate(Bundle savedInstanceState)
-	{
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.cadastrodependente);
-this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-	
-Button cadastroDependente = (Button) findViewById(R.id.btnCadastroDependente);		
-cadastroDependente.setOnClickListener(new View.OnClickListener() {
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.cadastrodependente);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		Button cadastroDependente = (Button) findViewById(R.id.btnCadastroDependente);	
+		
+		cadastroDependente.setOnClickListener(new View.OnClickListener() {
 	@Override
-	public void onClick(View v) {
-		chamaConfig();
-	}
-});
-
+			public void onClick(View v) {
+				chamaConfig();
+			}
+		});
 }
 	public void chamaConfig(){
 		Intent entra = new Intent(this, Cores.class);

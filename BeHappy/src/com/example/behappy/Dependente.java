@@ -19,32 +19,32 @@ import android.widget.Toast;
 
 public class Dependente extends Activity {
 	@Override
-	public void onCreate(Bundle savedInstanceState)
-	{
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.dependente);
-this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-	
-Button cadastroDep = (Button) findViewById(R.id.btnCadastroDep);		
-cadastroDep.setOnClickListener(new View.OnClickListener() {
+	public void onCreate(Bundle savedInstanceState){
+		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.dependente);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		
+		Button cadastroDep = (Button) findViewById(R.id.btnCadastroDep);	
+		
+		cadastroDep.setOnClickListener(new View.OnClickListener() {
 	@Override
-	public void onClick(View v) {
-		chamaCadastroDep();
-	}
-});
+			public void onClick(View v) {
+				chamaCadastroDep();
+			}
+		});
 	
-	initList();
-
-	ListView lv = (ListView) findViewById(R.id.listaDependente);
-
-	SimpleAdapter simpleAdpt = new SimpleAdapter(this, dependenteLista, android.R.layout.simple_list_item_1, new String[] {"dependente"}, new int[] {android.R.id.text1});
-
-	lv.setAdapter(simpleAdpt);
+		initList();
 	
-	lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+		ListView lv = (ListView) findViewById(R.id.listaDependente);
+
+		SimpleAdapter simpleAdpt = new SimpleAdapter(this, dependenteLista, android.R.layout.simple_list_item_1, new String[] {"dependente"}, new int[] {android.R.id.text1});
+
+		lv.setAdapter(simpleAdpt);
+	
+		lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 		@Override
-		public void onItemClick(AdapterView<?> parentAdapter, View view, int position,
-				long id) {
+		public void onItemClick(AdapterView<?> parentAdapter, View view, int position, long id) {
 			Intent novaIntent = null;
 			for (int i = 0; i<=dependenteLista.size(); i++) {
 				if (position == i) {

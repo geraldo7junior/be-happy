@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
 		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-		
 	
 	     userDAO=new UserDAO(this);
 	     userDAO=userDAO.open();
@@ -41,13 +40,12 @@ public class MainActivity extends Activity {
 				String storedPassword=userDAO.getSinlgeEntry(userName);
 	 			
 	 			
-				if(password.equals(storedPassword))
-				{
+				if(password.equals(storedPassword)){
+					
 					Toast.makeText(MainActivity.this, "Bem vindo!", Toast.LENGTH_LONG).show();
 					chamaHome();
 				}
-				else
-				{
+				else{
 					Toast.makeText(MainActivity.this, "Usuário ou senha incorretos!", Toast.LENGTH_LONG).show();
 				}
 			}
@@ -63,11 +61,11 @@ public class MainActivity extends Activity {
 		
 	}
 		@Override
-		protected void onDestroy() {
-			super.onDestroy();
+	protected void onDestroy() {
+		super.onDestroy();
 		    // Close The Database
-			userDAO.close();
-		}
+		userDAO.close();
+	}
 	
 	public void chamaHome(){
 		Intent entra = new Intent(this, Home.class);
