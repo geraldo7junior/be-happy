@@ -65,67 +65,67 @@ public class JogoMemoria extends Activity {
         setContentView(R.layout.memoria);
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
        
-       backImage =  getResources().getDrawable(R.drawable.icon);
-       buttonListener = new ButtonListener();
-       mainTable = (TableLayout)findViewById(R.id.TableLayout03);
-       context  = mainTable.getContext();
+        backImage =  getResources().getDrawable(R.drawable.icon);
+        buttonListener = new ButtonListener();
+        mainTable = (TableLayout)findViewById(R.id.TableLayout03);
+        context  = mainTable.getContext();
         
-       	    Spinner s = (Spinner) findViewById(R.id.Spinner01);
-	        ArrayAdapter adapter = ArrayAdapter.createFromResource(
-	        this, R.array.type, android.R.layout.simple_spinner_item);
-	        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-	        s.setAdapter(adapter);
+       	Spinner s = (Spinner) findViewById(R.id.Spinner01);
+	    ArrayAdapter adapter = ArrayAdapter.createFromResource(
+	    this, R.array.type, android.R.layout.simple_spinner_item);
+	    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+	    s.setAdapter(adapter);
 	        
-	        s.setOnItemSelectedListener(new OnItemSelectedListener(){
+	    s.setOnItemSelectedListener(new OnItemSelectedListener(){
 	        	
 	    	  @Override
 	    	  public void onItemSelected(
 	    			  android.widget.AdapterView<?> arg0, 
 	    			  View arg1, int pos, long arg3){
 	    		  
-	    		  ((Spinner) findViewById(R.id.Spinner01)).setSelection(0);
+	    		  	  	((Spinner) findViewById(R.id.Spinner01)).setSelection(0);
 	  			
-	  			switch (pos) {
-				case 1:
-					x=4;y=4;
-					novoJogo(x,y);
-					break;
-				case 2:
-					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
-					if (nivel >= 2){
-						x=4;y=5;
-						novoJogo(x,y);
-					}
-					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
-					break;
-				case 3:
-					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
-					if (nivel >= 3){
-						x=4;y=6;
-						novoJogo(x,y);
-					}
-					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
-					break;
-				case 4:
-					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
-					if (nivel >= 4){
-						x=5;y=6;
-						novoJogo(x,y);
-					}
-					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
-					break;
-				case 5:					
-					nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
-					if (nivel >= 5){
-						x=6;y=6;
-						novoJogo(x,y);
-					}
-					else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
-					break;
-				default:
-					return;
-				}	
-	  		}
+	    		  	  	switch (pos) {
+							case 1:
+								x=4;y=4;
+								novoJogo(x,y);
+								break;
+							case 2:
+								nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+								if (nivel >= 2){
+									x=4;y=5;
+									novoJogo(x,y);
+								}
+								else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
+								break;
+							case 3:
+								nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+								if (nivel >= 3){
+									x=4;y=6;
+									novoJogo(x,y);
+								}
+								else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
+								break;
+							case 4:
+								nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+								if (nivel >= 4){
+									x=5;y=6;
+									novoJogo(x,y);
+								}
+								else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
+								break;
+							case 5:					
+								nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+								if (nivel >= 5){
+									x=6;y=6;
+									novoJogo(x,y);
+								}
+								else Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();
+								break;
+							default:
+								return;
+						}	
+	  				}
 
 			@Override
 			public void onNothingSelected(AdapterView<?> arg0) {
@@ -147,15 +147,16 @@ public class JogoMemoria extends Activity {
     	tr.removeAllViews();
     	mainTable = new TableLayout(context);
     	tr.addView(mainTable);
-    	 for (int y = 0; y < ROW_COUNT; y++) {
-    		 mainTable.addView(createRow(y));
-          }
+    	
+    	for (int y = 0; y < ROW_COUNT; y++) {
+    		mainTable.addView(createRow(y));
+    	}
     	 
-    	 primeiraCarta=null;
-    	 carregaCartas();
+    	primeiraCarta=null;
+    	carregaCartas();
     	 
-    	 vezes=0;
-    	 ((TextView)findViewById(R.id.tv1)).setText("Tentativas: "+vezes);		
+    	vezes=0;
+    	((TextView)findViewById(R.id.tv1)).setText("Tentativas: "+vezes);		
 	}
     
     private void carregaImagens() {
@@ -249,8 +250,7 @@ public class JogoMemoria extends Activity {
 				int x = id/100;
 				int y = id%100;
 				viraCarta((Button)v,x,y);
-			}
-			
+			}	
 		}
 
 		private void viraCarta(Button button,int x, int y) {
@@ -288,12 +288,9 @@ public class JogoMemoria extends Activity {
 				
 				  Timer t = new Timer(false);
 			        t.schedule(tt, 1300);
-			}
-			
-				
-		   }
-			
-		}
+			}				
+		}	
+	}
     
     class AtualizaCartasHandler extends Handler{
     	
@@ -304,20 +301,19 @@ public class JogoMemoria extends Activity {
     		}
     	}
     	
-    	
-    	 public void checaCartas(){
-    	    	if(cartas[segundaCarta.x][segundaCarta.y] == cartas[primeiraCarta.x][primeiraCarta.y]){
-    	    		primeiraCarta.button.setVisibility(View.INVISIBLE);
-    	    		segundaCarta.button.setVisibility(View.INVISIBLE);
-    	    		contAcertos += 2;
-    			}
-    			else {
-    				segundaCarta.button.setBackgroundDrawable(backImage);
-    				primeiraCarta.button.setBackgroundDrawable(backImage);
-    			}
+    	public void checaCartas(){
+    		if(cartas[segundaCarta.x][segundaCarta.y] == cartas[primeiraCarta.x][primeiraCarta.y]){
+    	    	primeiraCarta.button.setVisibility(View.INVISIBLE);
+    	    	segundaCarta.button.setVisibility(View.INVISIBLE);
+    	    	contAcertos += 2;
+    		}
+    		else {
+    			segundaCarta.button.setBackgroundDrawable(backImage);
+    			primeiraCarta.button.setBackgroundDrawable(backImage);
+    		}
     	    	
-    	    	primeiraCarta=null;
-    			segundaCarta=null;
-    	    }
+    	    primeiraCarta=null;
+    		segundaCarta=null;
+    	}
     }
 }

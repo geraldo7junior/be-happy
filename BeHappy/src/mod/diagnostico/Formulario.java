@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.example.behappy.R;
 
-
 public class Formulario extends Activity{
 
 	/**
@@ -255,9 +254,7 @@ public class Formulario extends Activity{
 		String string = field.getText().toString();
 		return string;		
 	}
-	*/
-	
-	
+	*/	
 	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub

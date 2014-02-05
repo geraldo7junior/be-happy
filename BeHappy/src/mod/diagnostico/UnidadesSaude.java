@@ -10,20 +10,19 @@ import android.widget.Button;
 
 public class UnidadesSaude extends Activity {
 	@Override
-	public void onCreate(Bundle savedInstanceState)
-	{
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.unidadessaude);
-	
-	Button unidadess = (Button) findViewById(R.id.btnUnidadesSaude);
-    unidadess.setOnClickListener(new View.OnClickListener(){
-    	public void onClick(View v){
-    		Intent myIntent = new Intent(
-					Intent.ACTION_VIEW,
-					Uri.parse("http://i.imgur.com/1Ye0aqk.jpg?1"));
-    		startActivity(myIntent);
-    	}
-    });
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.unidadessaude);
+		
+		Button unidadess = (Button) findViewById(R.id.btnUnidadesSaude);
+	    unidadess.setOnClickListener(new View.OnClickListener(){
+	    	public void onClick(View v){
+	    		Intent myIntent = new Intent(
+						Intent.ACTION_VIEW,
+						Uri.parse("http://i.imgur.com/1Ye0aqk.jpg?1"));
+	    		startActivity(myIntent);
+	    	}
+	    });
 
 	}
-	}
+}

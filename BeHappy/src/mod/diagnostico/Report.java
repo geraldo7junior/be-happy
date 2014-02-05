@@ -98,7 +98,6 @@ public class Report extends Activity{
 			}
 		});
 	}
-	
 
 	private void initializeVars() {
 		/*
@@ -152,11 +151,9 @@ public class Report extends Activity{
 	*/
 	private String  editTextToString(EditText field) {  
 		String string = field.getText().toString();
-		return string;
-		
-		}
-	
-	
+		return string;		
+	}
+
 	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub

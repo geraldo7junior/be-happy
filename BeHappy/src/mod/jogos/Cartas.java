@@ -13,6 +13,4 @@ public class Cartas{
 		this.y=y;
 		this.button=button;
 	}
-	
-
 }

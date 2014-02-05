@@ -6,9 +6,8 @@ import android.os.Bundle;
 
 public class Sono extends Activity {
 	@Override
-	public void onCreate(Bundle savedInstanceState)
-	{
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.sono);
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.sono);
 	}
 }
