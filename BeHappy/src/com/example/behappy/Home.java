@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import com.example.behappy.EditarResponsavel;
 
 public class Home extends Activity {
 	
@@ -17,6 +18,7 @@ public class Home extends Activity {
 	public static final int MENU2 = Menu.FIRST + 1;
 	public static final int MENU3 = Menu.FIRST + 3;
 	public static final int MENU4 = Menu.FIRST + 4;
+	public static final int MENU5 = Menu.FIRST + 5;
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
@@ -68,9 +70,10 @@ public class Home extends Activity {
 	
 	public boolean onCreateOptionsMenu(Menu options) {
 		options.add(0, MENU1, 0, "Dependente");
-		options.add(0, MENU2, 0, "Configuração");
-		options.add(0, MENU3, 0, "Informações");
-		options.add(0, MENU4, 0, "Sair");
+		options.add(0, MENU2, 0, "Editar responsável");
+		options.add(0, MENU3, 0, "Configuração");
+		options.add(0, MENU4, 0, "Informações");
+		options.add(0, MENU5, 0, "Sair");
 			
 		return super.onCreateOptionsMenu(options);
 	}
@@ -85,25 +88,36 @@ public class Home extends Activity {
 			return true;
 
 		case MENU2:
+			Intent mudarDeTela3 = new Intent(this, EditarResponsavel.class);
+			startActivity(mudarDeTela3);
+			return true;
+
+		case MENU3:
 			Intent mudarDeTela2 = new Intent(this, Cores.class);
 			startActivity(mudarDeTela2);
 			return true;
 
-		case MENU3:
+		case MENU4:
 			siteBeHappy();
 			return true;
 				
-		case MENU4:
+		case MENU5:
 			finish();
 			return true;
 		}
 			return false;
-	}
+	}		
 
 	void siteBeHappy() {
 		String end = "https://code.google.com/p/be-happy/";
 		Uri uri = Uri.parse(end);
 		Intent it = new Intent(Intent.ACTION_VIEW, uri);
 		startActivity(it);
+	}
+	
+	//Pega o nome do usuário no Login
+	public static void pegarUser(String userName) {
+		String user = userName;
+		EditarResponsavel.pegarUser(user);
 	}
 }

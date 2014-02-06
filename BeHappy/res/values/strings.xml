@@ -54,6 +54,14 @@
 		<string name="cadastrodep">Cadastro de dependente</string>
 		<string name="dependente">Dependente</string>
 		<string name="cadastrar">Cadastrar</string>
+		
+	<!-- Edição de responsável -->
+	<string name="titleeditarcadastro">Editar Cadastro</string>
+    <string name="checknewpassword">Alterar senha atual</string>
+    <string name="edittextnewpassword">Nova senha</string>
+	<string name="edittextconfirmpassword">Confirmar nova senha</string>
+	<string name="edittextpassword">Senha atual</string>
+	<string name="btneditaccount">Salvar</string>
  
 <!-- Diagnostico -->
 <string name="formulario">Formulário</string>

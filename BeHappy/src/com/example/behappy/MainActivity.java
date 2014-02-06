@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.example.behappy.Home;
 
 public class MainActivity extends Activity {
 	
@@ -43,6 +44,7 @@ public class MainActivity extends Activity {
 				if(password.equals(storedPassword)){
 					
 					Toast.makeText(MainActivity.this, "Bem vindo!", Toast.LENGTH_LONG).show();
+					Home.pegarUser(userName);
 					chamaHome();
 				}
 				else{

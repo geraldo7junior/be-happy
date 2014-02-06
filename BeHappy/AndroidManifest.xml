@@ -77,6 +77,9 @@
             <activity  android:name=".CadastroDependente"
                android:label="@string/cadastrodep">         
             </activity> 
+            <activity  android:name=".EditarResponsavel"
+               android:label="@string/titleeditarcadastro">         
+            </activity> 
              <activity  android:name="mod.jogos.Cartas"
                android:label="@string/cartas">         
             </activity> 
