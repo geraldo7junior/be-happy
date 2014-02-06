@@ -1,13 +1,24 @@
+
 package mod.jogos;
 
+import android.content.Intent;
+
+import com.example.behappy.Home;
+import com.example.behappy.Jogos;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -29,6 +40,7 @@ import android.widget.Toast;
 
 import com.example.behappy.R;
 
+@SuppressLint("HandlerLeak")
 public class JogoMemoria extends Activity {
     private static int ROW_COUNT = -1;
 	private static int COL_COUNT = -1;
@@ -71,7 +83,7 @@ public class JogoMemoria extends Activity {
         context  = mainTable.getContext();
         
        	Spinner s = (Spinner) findViewById(R.id.Spinner01);
-	    ArrayAdapter adapter = ArrayAdapter.createFromResource(
+	    ArrayAdapter<?> adapter = ArrayAdapter.createFromResource(
 	    this, R.array.type, android.R.layout.simple_spinner_item);
 	    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 	    s.setAdapter(adapter);
@@ -186,6 +198,7 @@ public class JogoMemoria extends Activity {
 		
 	}
 
+	@SuppressLint("UseValueOf")
 	private void carregaCartas(){
 		try{
 	    	int size = ROW_COUNT*COL_COUNT;
@@ -300,12 +313,36 @@ public class JogoMemoria extends Activity {
     			checaCartas();
     		}
     	}
-    	
+    		
     	public void checaCartas(){
     		if(cartas[segundaCarta.x][segundaCarta.y] == cartas[primeiraCarta.x][primeiraCarta.y]){
     	    	primeiraCarta.button.setVisibility(View.INVISIBLE);
     	    	segundaCarta.button.setVisibility(View.INVISIBLE);
     	    	contAcertos += 2;
+ 
+    	    	if (contAcertos == ROW_COUNT*COL_COUNT) {
+    	    		//Toast.makeText (JogoMemoria.this, "Fim!", Toast.LENGTH_LONG).show();
+    	    		
+    	    		final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
+    	    		 
+    	    		alertDialogBuilder.setTitle(R.string.DialogFrase);
+    	    		alertDialogBuilder.setMessage(R.string.DialogJogo);
+    	    		
+    	    		alertDialogBuilder.setPositiveButton(R.string.respDialogSim, new DialogInterface.OnClickListener() {
+    	    			public void onClick(DialogInterface dialog, int which) {
+    	    				novoJogo(x,y);
+    	    			}
+    	    		});
+    	    		 
+    	    		alertDialogBuilder.setNegativeButton(R.string.respDialogNao, new DialogInterface.OnClickListener() {
+    	    			public void onClick(DialogInterface dialog, int which) {
+    	    				chamaHome();
+    	    			}
+    	    		});
+    	    		
+    	    		alertDialogBuilder.show();
+    	    	
+    	    	}
     		}
     		else {
     			segundaCarta.button.setBackgroundDrawable(backImage);
@@ -314,6 +351,14 @@ public class JogoMemoria extends Activity {
     	    	
     	    primeiraCarta=null;
     		segundaCarta=null;
-    	}
-    }
+    	} 
+    		
+    	
+    }  
+	public void chamaHome(){
+		Intent entra = new Intent( this, Home.class);
+		entra.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(entra);
+	}
+
 }

@@ -22,9 +22,14 @@
     <string name="cartas">Cartas</string>
     <string name="jogomemoria">Jogo da memória</string>
     
+    
     <!-- Jogos -->
 	<string name="quebra">Quebra Cabeça</string>
 	<string name="memoria">Jogo da Memória</string>
+	<string name="DialogFrase">O jogo terminou!</string>
+	<string name="DialogJogo">Deseja jogar novamente?</string>
+	<string name="respDialogSim">Sim</string>
+	<string name="respDialogNao">Não</string>
 	
 	
 	<!-- Educacional -->
