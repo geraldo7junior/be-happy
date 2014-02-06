@@ -98,10 +98,10 @@ public final class R {
         public static final int buttonCreateAccount=0x7f0a0008;
         public static final int buttonSignIn=0x7f0a006f;
         public static final int checkNewPassword=0x7f0a0014;
-        public static final int editText1=0x7f0a0002;
         public static final int editText2=0x7f0a0005;
         public static final int editTextConfirmPassword=0x7f0a0007;
         public static final int editTextNewPassword=0x7f0a0015;
+        public static final int editTextNome=0x7f0a0002;
         public static final int editTextPassword=0x7f0a0006;
         public static final int editTextPasswordToLogin=0x7f0a006e;
         public static final int editTextUserName=0x7f0a0004;
@@ -197,7 +197,6 @@ public final class R {
         public static final int rgq7=0x7f0a0031;
         public static final int rgq8=0x7f0a0034;
         public static final int rgq9=0x7f0a0037;
-        public static final int textView1=0x7f0a0001;
         public static final int textView10=0x7f0a0086;
         public static final int textView11=0x7f0a0087;
         public static final int textView12=0x7f0a0088;
@@ -215,6 +214,7 @@ public final class R {
         public static final int textView7=0x7f0a0083;
         public static final int textView8=0x7f0a0084;
         public static final int textView9=0x7f0a0085;
+        public static final int titleCadastrarDependente=0x7f0a0001;
         public static final int titleeditarcadastro=0x7f0a0013;
         public static final int tv1=0x7f0a0075;
     }
