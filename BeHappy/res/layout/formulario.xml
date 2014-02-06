@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   android:layout_width="fill_parent"
-   android:layout_height="fill_parent"
-   android:background="@drawable/back"
-   android:gravity="center"
-   android:orientation="vertical" >
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/back"
+	android:gravity="center"
+	android:orientation="vertical" >
  
-	<ScrollView
-        android:layout_width="fill_parent"
+ 	<ScrollView
+		android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
  
 		<LinearLayout
@@ -40,7 +40,6 @@
 	                android:id="@+id/rbqn1"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -66,7 +65,6 @@
 	                android:id="@+id/rbqn2"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -92,7 +90,6 @@
                     android:id="@+id/rbqn3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="true"
                     android:text="@string/n" />
             </RadioGroup>
             
@@ -117,7 +114,6 @@
 	                android:id="@+id/rbqn4"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -143,7 +139,6 @@
 	                android:id="@+id/rbqn5"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -169,7 +164,6 @@
 	                android:id="@+id/rbqn6"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -194,7 +188,6 @@
 	                android:id="@+id/rbqn7"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -220,7 +213,6 @@
 	                android:id="@+id/rbqn8"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -246,7 +238,6 @@
 	                android:id="@+id/rbqn9"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -272,7 +263,6 @@
 	                android:id="@+id/rbqn10"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -298,7 +288,6 @@
 	                android:id="@+id/rbqn11"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -324,7 +313,6 @@
 	                android:id="@+id/rbqn12"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -350,7 +338,6 @@
 	                android:id="@+id/rbqn13"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -358,7 +345,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/q4" />
+                android:text="@string/q14" />
 
             <RadioGroup
 				android:id="@+id/rgq14"
@@ -376,7 +363,6 @@
 	                android:id="@+id/rbqn14"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -402,7 +388,6 @@
 	                android:id="@+id/rbqn15"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -428,7 +413,6 @@
 	                android:id="@+id/rbqn16"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -454,7 +438,6 @@
 	                android:id="@+id/rbqn17"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -480,7 +463,6 @@
 	                android:id="@+id/rbqn18"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -506,7 +488,6 @@
 	                android:id="@+id/rbqn19"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -532,7 +513,6 @@
 	                android:id="@+id/rbqn20"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -558,7 +538,6 @@
 	                android:id="@+id/rbqn21"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -584,7 +563,6 @@
 	                android:id="@+id/rbqn22"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -610,7 +588,6 @@
 	                android:id="@+id/rbqn23"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:checked="true"
 	                android:text="@string/n" />
 		            
             </RadioGroup>
@@ -624,17 +601,13 @@
 
             	<requestFocus />
         	</EditText>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/report_email" />
            
             <EditText
             	android:id="@+id/femail"
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
-            	android:ems="10" >
+            	android:ems="10"
+            	android:hint="E-mail para envio" >
                 
             </EditText>
 	       
@@ -644,8 +617,6 @@
            		android:layout_height="wrap_content"
            		android:text="@string/send" />
          
-        </LinearLayout>
-
-    </ScrollView>
- 
+		</LinearLayout>
+	</ScrollView> 
 </LinearLayout>
