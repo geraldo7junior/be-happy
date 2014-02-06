@@ -3,6 +3,7 @@ package mod.diagnostico;
 import com.example.behappy.R;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ public class UnidadesSaude extends Activity {
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.unidadessaude);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		
 		Button unidadess = (Button) findViewById(R.id.btnUnidadesSaude);
 	    unidadess.setOnClickListener(new View.OnClickListener(){
