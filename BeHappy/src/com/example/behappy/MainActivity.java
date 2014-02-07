@@ -1,9 +1,9 @@
 package com.example.behappy;
 
-
-import java.util.concurrent.ExecutionException;
+//import java.util.concurrent.ExecutionException;
 
 import database.EnterProcess;
+
 import database.UserDAO;
 import android.app.Activity;
 import android.content.Intent;
@@ -17,7 +17,6 @@ import android.widget.Toast;
 import com.example.behappy.Home;
 
 public class MainActivity extends Activity {
-	
 	Button btnSignIn;
 	UserDAO userDAO;
 	String userName;

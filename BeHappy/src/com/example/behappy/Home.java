@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import com.example.behappy.EditarResponsavel;
+import mod.noticias.Tabs;
 
 public class Home extends Activity {
 	
@@ -40,12 +41,28 @@ public class Home extends Activity {
 				chamaJogos();
 			}
 		});
+		
+		ImageButton desafio = (ImageButton) findViewById(R.id.ibtnDesafio);		
+		desafio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				chamaDesafio();
+			}
+		});
 	
 		Button diagnostico = (Button) findViewById(R.id.btnDiagnostico);		
 		diagnostico.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				chamaDiagnostico();
+			}
+		});
+		
+		Button noticia = (Button) findViewById(R.id.btnNoticia);		
+		noticia.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				chamaNoticia();
 			}
 		});
 	}
@@ -64,6 +81,19 @@ public class Home extends Activity {
 	
 	public void chamaDiagnostico(){
 		Intent entra = new Intent(this, Diagnostico.class);
+		entra.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(entra);
+	}
+	
+	public void chamaDesafio(){
+		Intent entra = new Intent(this, Desafio.class);
+		entra.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(entra);
+		
+	}
+	
+	public void chamaNoticia(){
+		Intent entra = new Intent(this, Tabs.class);
 		entra.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(entra);
 	}

@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/ivForca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@null"
+        android:src="@drawable/forca_6" />
+    <LinearLayout
+        android:id="@+id/lBotoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                style="@style/letras"
+                android:id="@+id/bA"
+                android:text="A" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bB"
+                android:text="B" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bC"
+                android:text="C" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bD"
+                android:text="D" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bE"
+                android:text="E" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bF"
+                android:text="F" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bG"
+                android:text="G" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                style="@style/letras"
+                android:id="@+id/bH"
+                android:text="H" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bI"
+                android:text="I" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bJ"
+                android:text="J" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bK"
+                android:text="K" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bL"
+                android:text="L" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bM"
+                android:text="M" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bN"
+                android:text="N" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                style="@style/letras"
+                android:id="@+id/bO"
+                android:text="O" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bP"
+                android:text="P" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bQ"
+                android:text="Q" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bR"
+                android:text="R" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bS"
+                android:text="S" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bT"
+                android:text="T" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bU"
+                android:text="U" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:orientation="horizontal" >
+            <Button
+                style="@style/letras"
+                android:id="@+id/bV"
+                android:text="V" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bW"
+                android:text="W" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bX"
+                android:text="X" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bY"
+                android:text="Y" />
+            <Button
+                style="@style/letras"
+                android:id="@+id/bZ"
+                android:text="Z" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvPalavra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ivForca"
+        android:layout_above="@id/lBotoes"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="PALAVRA SECRETA" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Dica: Animais"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

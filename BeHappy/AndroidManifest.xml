@@ -86,6 +86,23 @@
              <activity  android:name="mod.jogos.JogoMemoria"
                android:label="@string/jogomemoria">         
             </activity> 
+            
+             <activity  android:name=".Noticia"
+               android:label="@string/noticia">         
+            </activity> 
+            
+             <activity  android:name=".Desafio"
+               android:label="@string/desafiotela">         
+            </activity> 
+            
+             <activity  android:name="mod.desafio.Forca"
+               android:label="@string/forca">         
+            </activity> 
+            
+             <activity  android:name="mod.desafio.ForcaJogo"
+               android:label="@string/gameactivity">         
+            </activity> 
+            
             <activity  android:name=".CadastroResponsavel"
                android:label="@string/cadastroresponsavel">         
             </activity> 
@@ -94,6 +111,13 @@
             android:name="mod.diagnostico.Formulario"
             android:label="@string/diagnostico" >
         </activity>
+        
+                 <activity
+            android:name="mod.noticias.Tabs" android:label="@string/noticia">
+              </activity>
+        
+                 <activity android:name="mod.noticias.Noticias" android:label="@string/noticia">
+                       </activity>
     </application>
 
 </manifest>

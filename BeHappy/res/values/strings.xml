@@ -31,6 +31,11 @@
 	<string name="respDialogSim">Sim</string>
 	<string name="respDialogNao">Não</string>
 	
+	<!-- Desafio -->
+	<string name="forca">Forca</string>
+	<string name="desafiotela">Desafio</string>
+	<string name="gameactivity">Desafio da Forca</string>
+	
 	
 	<!-- Educacional -->
 	<string name="educacional">Educacional</string>
@@ -59,6 +64,7 @@
 		<string name="cadastrodep">Cadastro de dependente</string>
 		<string name="dependente">Dependente</string>
 		<string name="cadastrar">Cadastrar</string>
+
 		
 	<!-- Edição de responsável -->
 	<string name="titleeditarcadastro">Editar Cadastro</string>
@@ -67,6 +73,7 @@
 	<string name="edittextconfirmpassword">Confirmar nova senha</string>
 	<string name="edittextpassword">Senha atual</string>
 	<string name="btneditaccount">Salvar</string>
+
  
 <!-- Diagnostico -->
 <string name="formulario">Formulário</string>
@@ -169,5 +176,10 @@ Não segue com o olhar gestos que os outros lhe fazem;</string>
 	<string name="unid15">Unidade: CAPS DAVID CAPISTRANO;Endereço: RUA VIRGINIA HERACLIO, S/N – IPSEP;Fone: 3355–4276</string>
 	<string name="unid16">Unidade: CAPS AD PROFESSOR JOSE LUCENA;Endereço: RUA ITAJAI, 418 – IMBIRIBEIRA;Fone: 3355–4256</string>
 	<string name="unid17">Unidade: CAPS ESPACO LIVREMENTE;Endereço: RUA MINISTRO NELSON HUNGRIA, 36 – BOA VIAGEM;Fone: 3355–4284</string>
-   
+ 
+	<!-- Noticias -->
+	<string name="menu_settings">Settings</string>
+    <string name="tab_um">Autismo Amor</string>
+    <string name="tab_dois">Estou Autista</string>
+    <string name="tab_tres">Autism Speaks</string>
 </resources>
