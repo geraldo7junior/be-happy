@@ -316,11 +316,15 @@ public class JogoMemoria extends Activity {
     		
     	public void checaCartas(){
     		if(cartas[segundaCarta.x][segundaCarta.y] == cartas[primeiraCarta.x][primeiraCarta.y]){
-    	    	primeiraCarta.button.setVisibility(View.INVISIBLE);
-    	    	segundaCarta.button.setVisibility(View.INVISIBLE);
+    	    	//primeiraCarta.button.setVisibility(View.INVISIBLE);
+    	    	//segundaCarta.button.setVisibility(View.INVISIBLE);
+    			//primeiraCarta.button.setClickable(false);
+    			//segundaCarta.button.setClickable(false);
+    			primeiraCarta.button.setEnabled(false);
+    			segundaCarta.button.setEnabled(false);
     	    	contAcertos += 2;
  
-    	    	if (contAcertos == ROW_COUNT*COL_COUNT) {
+    	    	if (contAcertos == x*y) {
     	    		//Toast.makeText (JogoMemoria.this, "Fim!", Toast.LENGTH_LONG).show();
     	    		
     	    		final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
@@ -330,8 +334,25 @@ public class JogoMemoria extends Activity {
     	    		
     	    		alertDialogBuilder.setPositiveButton(R.string.respDialogSim, new DialogInterface.OnClickListener() {
     	    			public void onClick(DialogInterface dialog, int which) {
-    	    				novoJogo(x,y);
-    	    			}
+    	    				nivel = ComplexidadeNivel.memoriaParaMemoria(nivel, vezes, contAcertos, x, y);
+    	    						if (nivel ==1){
+    	    							x=4; y=4;
+    	    							novoJogo(x,y);
+    	    						}else if (nivel ==2) {
+    	    							x=4; y=5;
+    	    							novoJogo(x,y);
+    	    						}else if (nivel ==3) {
+    	    							x=4; y=6;
+    	    							novoJogo(x,y);
+    	    						}else if (nivel ==4) {
+        	    						x=5; y=6;
+        	    						novoJogo(x,y);
+    	    						}else if (nivel ==5) {
+    	    							x=6; y=6;
+									novoJogo(x,y);
+		
+    	    						}else{ Toast.makeText(JogoMemoria.this, "Nível bloqueado!", Toast.LENGTH_LONG).show();}
+    	    				}
     	    		});
     	    		 
     	    		alertDialogBuilder.setNegativeButton(R.string.respDialogNao, new DialogInterface.OnClickListener() {
