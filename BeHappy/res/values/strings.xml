@@ -182,4 +182,10 @@ Não segue com o olhar gestos que os outros lhe fazem;</string>
     <string name="tab_um">Autismo Amor</string>
     <string name="tab_dois">Estou Autista</string>
     <string name="tab_tres">Autism Speaks</string>
+    
+    <!-- Splash -->
+    <string name="splash">Be Happy!</string>
+    <string name="desen">Carlos César; Geraldo Gomes; Larissa Karollyne; Mário Gomes; Rafaella Leandra; Robson Ugo</string>
+    <string name="versao">2.0 - beta</string>
+    <string name="copi">Recife - 2014</string>
 </resources>

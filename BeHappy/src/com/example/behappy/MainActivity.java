@@ -6,6 +6,7 @@ import database.EnterProcess;
 
 import database.UserDAO;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -27,6 +28,12 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
 		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		
+		AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+		dialog.setMessage("Esta é uma versão beta! " + "Frente a qualquer instabilidade, acesse o menu informações. " + "Aproveite!");
+		dialog.setNeutralButton("OK", null);
+		dialog.setTitle("Be Happy!");
+		dialog.show();
 	
 	     userDAO=new UserDAO(this);
 	     userDAO=userDAO.open();

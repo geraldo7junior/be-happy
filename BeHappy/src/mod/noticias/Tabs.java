@@ -16,6 +16,7 @@ public class Tabs extends TabActivity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.tabs);
+		
 
 		TabHost tabHost = getTabHost();
 
@@ -62,6 +63,7 @@ public class Tabs extends TabActivity {
 		tabHost.addTab(tresTabSpec);
 
 		tabHost.setCurrentTab(1);
+		
 	}
 
 }

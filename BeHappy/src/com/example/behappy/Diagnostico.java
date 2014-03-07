@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+//import android.widget.Toast;
 
 
 public class Diagnostico extends Activity {
@@ -21,7 +21,7 @@ public class Diagnostico extends Activity {
 		formulario.setOnClickListener(new View.OnClickListener() {
 		@Override
 			public void onClick(View v) {
-				Toast.makeText(Diagnostico.this, "Preencha as questões abaixo sobre como seu filho geralmente se comporta, tentando responder a todas as questões. Caso o comportamento na questão seja raro (Só observou uma ou duas vezes), por favor responda como se seu filho não fizesse tal comportamento.", Toast.LENGTH_LONG).show();
+				//Toast.makeText(Diagnostico.this, "Preencha as questões abaixo sobre como seu filho geralmente se comporta, tentando responder a todas as questões. Caso o comportamento na questão seja raro (Só observou uma ou duas vezes), por favor responda como se seu filho não fizesse tal comportamento.", Toast.LENGTH_LONG).show();
 				chamaFormulario();
 			}
 		});

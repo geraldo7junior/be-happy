@@ -92,7 +92,7 @@ public final class R {
         public static final int TableRow03=0x7f0a009a;
         public static final int TableRow04=0x7f0a0093;
         public static final int TableRow05=0x7f0a0095;
-        public static final int action_settings=0x7f0a00b4;
+        public static final int action_settings=0x7f0a00b7;
         public static final int bA=0x7f0a0025;
         public static final int bB=0x7f0a0026;
         public static final int bC=0x7f0a0027;
@@ -131,10 +131,12 @@ public final class R {
         public static final int btnSair=0x7f0a0021;
         public static final int btnSinais=0x7f0a0013;
         public static final int btnUnidades=0x7f0a0014;
-        public static final int btnUnidadesSaude=0x7f0a00b3;
+        public static final int btnUnidadesSaude=0x7f0a00b6;
         public static final int buttonCreateAccount=0x7f0a0008;
         public static final int buttonSignIn=0x7f0a0090;
         public static final int checkNewPassword=0x7f0a0016;
+        public static final int desen=0x7f0a00ac;
+        public static final int direitos=0x7f0a00ad;
         public static final int editText2=0x7f0a0005;
         public static final int editTextConfirmPassword=0x7f0a0007;
         public static final int editTextNewPassword=0x7f0a0017;
@@ -238,19 +240,19 @@ public final class R {
         public static final int rgq8=0x7f0a0055;
         public static final int rgq9=0x7f0a0058;
         public static final int rssChannelListView=0x7f0a009d;
-        public static final int tab_dois=0x7f0a00ad;
-        public static final int tab_tres=0x7f0a00ae;
-        public static final int tab_um=0x7f0a00ac;
+        public static final int tab_dois=0x7f0a00b0;
+        public static final int tab_tres=0x7f0a00b1;
+        public static final int tab_um=0x7f0a00af;
         public static final int textView1=0x7f0a000a;
         public static final int textView10=0x7f0a00a8;
         public static final int textView11=0x7f0a00a9;
         public static final int textView12=0x7f0a00aa;
         public static final int textView13=0x7f0a00ab;
         public static final int textView14=0x7f0a001f;
-        public static final int textView15=0x7f0a00af;
-        public static final int textView16=0x7f0a00b0;
-        public static final int textView17=0x7f0a00b1;
-        public static final int textView18=0x7f0a00b2;
+        public static final int textView15=0x7f0a00b2;
+        public static final int textView16=0x7f0a00b3;
+        public static final int textView17=0x7f0a00b4;
+        public static final int textView18=0x7f0a00b5;
         public static final int textView2=0x7f0a00a0;
         public static final int textView3=0x7f0a00a1;
         public static final int textView4=0x7f0a00a2;
@@ -263,6 +265,7 @@ public final class R {
         public static final int titleeditarcadastro=0x7f0a0015;
         public static final int tv1=0x7f0a0096;
         public static final int tvPalavra=0x7f0a003f;
+        public static final int versão=0x7f0a00ae;
     }
     public static final class layout {
         public static final int banheiro=0x7f030000;
@@ -290,8 +293,9 @@ public final class R {
         public static final int sede=0x7f030016;
         public static final int sinais=0x7f030017;
         public static final int sono=0x7f030018;
-        public static final int tabs=0x7f030019;
-        public static final int unidadessaude=0x7f03001a;
+        public static final int splash=0x7f030019;
+        public static final int tabs=0x7f03001a;
+        public static final int unidadessaude=0x7f03001b;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -322,6 +326,7 @@ public final class R {
         public static final int cartas=0x7f06000e;
         public static final int checknewpassword=0x7f06002d;
         public static final int confsenha=0x7f06000d;
+        public static final int copi=0x7f060087;
         /**  Menu 
  Configuracao 
          */
@@ -333,6 +338,7 @@ public final class R {
         public static final int dependente=0x7f06002a;
         public static final int desafio=0x7f060007;
         public static final int desafiotela=0x7f060017;
+        public static final int desen=0x7f060085;
         public static final int diagnostico=0x7f060009;
         public static final int doze=0x7f06005a;
         public static final int dozeum=0x7f06005b;
@@ -435,6 +441,9 @@ public final class R {
         public static final int sinal6=0x7f060063;
         public static final int sinal9=0x7f060065;
         public static final int sono=0x7f06001c;
+        /**  Splash 
+         */
+        public static final int splash=0x7f060084;
         public static final int tab_dois=0x7f060082;
         public static final int tab_tres=0x7f060083;
         public static final int tab_um=0x7f060081;
@@ -464,6 +473,7 @@ public final class R {
          */
         public static final int unidades=0x7f06006d;
         public static final int unidadessaude=0x7f060034;
+        public static final int versao=0x7f060086;
         public static final int y=0x7f06004d;
     }
     public static final class style {
